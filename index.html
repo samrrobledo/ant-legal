@@ -15,47 +15,78 @@
   .muted { opacity: 0.6; font-size: 0.9rem; }
   a { color: #5B8DEF; }
   code { background: rgba(128,128,128,0.15); padding: 1px 5px; border-radius: 4px; }
+  li { margin: 4px 0; }
 </style>
 </head>
 <body>
   <h1>Política de Privacidad de Ant 🐜</h1>
   <p class="muted">Última actualización: 6 de junio de 2026</p>
 
-  <p>Ant es una app de registro de gastos para iPhone y Apple Watch. Tu privacidad
-  es parte central de su diseño: <strong>Ant no recopila, transmite ni vende tus datos</strong>.</p>
+  <p>Ant es una app para registrar tus gastos por categoría en iPhone y Apple Watch.
+  La privacidad es parte central de su diseño: <strong>Ant funciona sin cuentas y sin
+  servidores propios, y no recopila, transmite ni vende tu información personal.</strong></p>
 
-  <h2>Qué datos maneja la app</h2>
-  <p>Los gastos, categorías y ajustes que creas se guardan <strong>localmente en tu
-  dispositivo</strong>. Si activas iCloud, esa información se sincroniza únicamente en
-  <strong>tu cuenta privada de iCloud</strong> de Apple, a la que el desarrollador no
-  tiene acceso. No existen servidores propios de Ant donde se almacene tu información.</p>
+  <h2>1. Qué información manejas en Ant</h2>
+  <p>Eres tú quien crea la información dentro de la app: montos de gastos, notas,
+  categorías (con su emoji y color), gastos recurrentes y preferencias (moneda, tema,
+  idioma). Ant no te pide nombre, correo, teléfono ni ningún dato de identidad para
+  funcionar.</p>
 
-  <h2>Qué NO hacemos</h2>
+  <h2>2. Dónde se guarda tu información</h2>
+  <p>Toda esa información se guarda <strong>localmente en tu dispositivo</strong>,
+  en el almacenamiento privado de la app (tecnología SwiftData de Apple). No se envía
+  a ningún servidor del desarrollador, porque <strong>Ant no tiene servidores</strong>.</p>
+
+  <h2>3. Cómo se comparte entre las partes de la app</h2>
+  <p>Para que los <strong>widgets</strong> de la pantalla de inicio y la
+  <strong>complicación del Apple Watch</strong> muestren tus totales, Ant comparte un
+  resumen de tus datos entre sus componentes <strong>dentro de tu mismo dispositivo</strong>
+  (mediante un App Group de Apple) y entre tu iPhone y tu Apple Watch emparejado
+  (mediante WatchConnectivity de Apple). Esta comunicación es <strong>local entre tus
+  propios dispositivos</strong>; no pasa por internet ni por terceros.</p>
+
+  <h2>4. iCloud y la nube</h2>
+  <p>La versión actual de Ant <strong>guarda tus datos únicamente en tu dispositivo</strong>
+  y no los sincroniza con la nube. Si en una versión futura se ofrece sincronización con
+  <strong>iCloud</strong>, esa información se guardaría exclusivamente en
+  <strong>tu cuenta privada de iCloud</strong> (a través de CloudKit de Apple), a la que
+  <strong>el desarrollador no tiene acceso</strong>. En ningún caso tus gastos se envían a
+  servidores de Ant.</p>
+
+  <h2>5. Notificaciones</h2>
+  <p>Si activas recordatorios de gastos recurrentes, las notificaciones se programan y
+  se muestran <strong>localmente en tu dispositivo</strong> mediante el sistema de Apple.
+  No se envían desde ningún servidor (no son notificaciones push remotas).</p>
+
+  <h2>6. Compras dentro de la app</h2>
+  <p>Ant ofrece una compra única opcional, <em>Ant Premium</em>, que desbloquea funciones
+  adicionales. Las compras las procesa <strong>Apple</strong> a través de la App Store /
+  StoreKit. Ant <strong>no recibe ni almacena</strong> los datos de tu método de pago;
+  Apple gestiona esa información conforme a su propia política de privacidad.</p>
+
+  <h2>7. Lo que Ant NO hace</h2>
   <ul>
-    <li>No recopilamos datos personales ni de uso.</li>
-    <li>No usamos analítica, rastreadores ni publicidad de terceros.</li>
-    <li>No compartimos ni vendemos información a nadie.</li>
-    <li>No requerimos crear una cuenta para usar la app.</li>
+    <li>No recopila datos personales ni de uso.</li>
+    <li>No incluye analítica, rastreadores ni identificadores de seguimiento.</li>
+    <li>No muestra publicidad ni integra SDKs de terceros.</li>
+    <li>No comparte ni vende tu información a nadie.</li>
+    <li>No requiere crear una cuenta ni iniciar sesión en un servidor para usarse.</li>
   </ul>
 
-  <h2>Compras dentro de la app</h2>
-  <p>Ant ofrece una compra única opcional, <em>Ant Premium</em>. Las compras las
-  procesa <strong>Apple</strong> a través de App Store / StoreKit. Ant no recibe ni
-  almacena datos de tu método de pago; Apple gestiona esa información conforme a su
-  propia política de privacidad.</p>
+  <h2>8. Eliminar tu información</h2>
+  <p>Como tus datos viven en tu dispositivo, tú tienes el control total: puedes borrar
+  gastos y categorías dentro de la app, o eliminar la app para borrar toda su información
+  del dispositivo.</p>
 
-  <h2>Notificaciones</h2>
-  <p>Si activas recordatorios de gastos recurrentes, las notificaciones se programan
-  y muestran <strong>localmente en tu dispositivo</strong>. No se envían a ningún servidor.</p>
-
-  <h2>Menores de edad</h2>
+  <h2>9. Menores de edad</h2>
   <p>Ant no está dirigida a menores de 13 años y no recopila a sabiendas información de menores.</p>
 
-  <h2>Cambios a esta política</h2>
-  <p>Si esta política cambia, se actualizará esta misma página con una nueva fecha.</p>
+  <h2>10. Cambios a esta política</h2>
+  <p>Si esta política cambia (por ejemplo, al añadir sincronización con iCloud), se
+  actualizará esta misma página con una nueva fecha.</p>
 
-  <h2>Contacto</h2>
-  <p>¿Dudas sobre privacidad? Escríbenos a
+  <h2>11. Contacto</h2>
+  <p>¿Dudas sobre privacidad o soporte? Escríbenos a
   <a href="mailto:sam.rrobledo@gmail.com">sam.rrobledo@gmail.com</a>.</p>
 
   <hr style="margin-top:48px;opacity:0.2">
