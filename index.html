@@ -33,9 +33,11 @@
   funcionar.</p>
 
   <h2>2. Dónde se guarda tu información</h2>
-  <p>Toda esa información se guarda <strong>localmente en tu dispositivo</strong>,
-  en el almacenamiento privado de la app (tecnología SwiftData de Apple). No se envía
-  a ningún servidor del desarrollador, porque <strong>Ant no tiene servidores</strong>.</p>
+  <p>Tu información se guarda en el almacenamiento privado de la app en tu dispositivo
+  (tecnología SwiftData de Apple) y se mantiene sincronizada entre tus dispositivos a
+  través de tu <strong>cuenta privada de iCloud</strong> (CloudKit de Apple).
+  <strong>Ant no tiene servidores propios</strong>: tus datos solo existen en tu
+  dispositivo y en tu iCloud personal.</p>
 
   <h2>3. Cómo se comparte entre las partes de la app</h2>
   <p>Para que los <strong>widgets</strong> de la pantalla de inicio y la
@@ -46,12 +48,19 @@
   propios dispositivos</strong>; no pasa por internet ni por terceros.</p>
 
   <h2>4. iCloud y la nube</h2>
-  <p>La versión actual de Ant <strong>guarda tus datos únicamente en tu dispositivo</strong>
-  y no los sincroniza con la nube. Si en una versión futura se ofrece sincronización con
-  <strong>iCloud</strong>, esa información se guardaría exclusivamente en
-  <strong>tu cuenta privada de iCloud</strong> (a través de CloudKit de Apple), a la que
-  <strong>el desarrollador no tiene acceso</strong>. En ningún caso tus gastos se envían a
-  servidores de Ant.</p>
+  <p>Ant usa <strong>iCloud</strong> para que tus gastos estén disponibles y respaldados
+  en todos tus dispositivos que usen tu mismo Apple ID. Esta sincronización ocurre
+  exclusivamente dentro de tu <strong>cuenta privada de iCloud</strong>, mediante CloudKit
+  de Apple:</p>
+  <ul>
+    <li>Solo tú puedes acceder a esos datos, con tu Apple ID.</li>
+    <li>El <strong>desarrollador de Ant no tiene acceso</strong> a tu base de datos de
+        iCloud ni a su contenido.</li>
+    <li>Tus gastos <strong>nunca se envían a servidores de Ant</strong> ni de terceros.</li>
+  </ul>
+  <p>Apple gestiona iCloud conforme a su propia política de privacidad. Si desactivas
+  iCloud para Ant en los ajustes de tu dispositivo, la app sigue funcionando guardando
+  tus datos únicamente de forma local.</p>
 
   <h2>5. Notificaciones</h2>
   <p>Si activas recordatorios de gastos recurrentes, las notificaciones se programan y
